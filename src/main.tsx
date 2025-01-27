@@ -9,6 +9,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     < BrowserRouter>
       <ChakraProvider value={defaultSystem}>
+        <text>hi</text>
           <App />
         </ChakraProvider>
     </BrowserRouter>
